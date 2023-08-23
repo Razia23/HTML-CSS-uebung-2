@@ -1,0 +1,32 @@
+/*********//*********/
+/*********//*********/
+@media screen and (min-width:800px) {
+/********/
+main {
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+}
+/********/
+main .start{
+    grid-column-start: 2;
+}
+/********/
+main .second{
+    grid-column-start: 1;
+    grid-row-start: 2;
+}
+/********/
+main .third{
+    grid-column-start: 3;
+    grid-row-start: 2;
+}
+/********/
+main .fourt{
+    grid-column-start: 1;
+    grid-column-end: span 3;
+    background-color: rgba(240, 248, 255, 0.651);
+    border-radius: 30px;
+    padding: 10px;
+    margin: 10px;
+}
+}
